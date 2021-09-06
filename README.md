@@ -1,11 +1,5 @@
 # Circuit Breaker with Retry Configuration
 
-### Reference Documentation
-
-For further reference, please consider the following sections:
-
-* [Resilience4J documentation](https://resilience4j.readme.io/docs)
-* [A related github issue about using the features together](https://github.com/resilience4j/resilience4j/issues/558)
 
 ### Things to notice
 
@@ -31,4 +25,9 @@ Let circuit breaker return to *CLOSED* state after 15 seconds. If you rerun CURL
 you should see the expected output remains the same.
 
 
+### Reference Documentation
 
+For further reference, please consider the following sections:
+
+* [Resilience4J documentation](https://resilience4j.readme.io/docs)
+* [A related github issue about using the features together](https://github.com/resilience4j/resilience4j/issues/558)
